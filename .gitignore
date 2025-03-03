@@ -1,0 +1,40 @@
+# Windows geçici dosyaları
+Thumbs.db
+Desktop.ini
+
+# macOS geçici dosyaları
+.DS_Store
+
+# Linux geçici dosyaları
+*~
+.directory
+
+# VBScript geçici dosyaları
+*.vbs~
+
+# Vizart programı tarafından oluşturulan dosyalar
+*.vizart
+*.viz
+
+# Derleme ve geçici dosyalar
+*.log
+*.bak
+*.tmp
+
+# Derleme dosyaları (Genellikle obj ve bin klasörleri)
+bin/
+obj/
+
+# Konfigürasyon ve gizli dosyalar
+*.env
+config.json
+secrets.json
+
+# Vizart ve diğer programlar tarafından oluşturulan geçici dosyalar
+.vs/
+.vscode/
+.idea/
+
+# Diğer geçici dosyalar ve sistem dosyaları
+*.swp
+*.swo
