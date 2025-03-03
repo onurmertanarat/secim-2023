@@ -1,37 +1,48 @@
-<h1>2023 Turkish Presidential Elections</h1>
+# 2023 Turkish Presidential Elections - Election Data Visualization Script
 
-<p>This script is designed to retrieve and display election data for channel broadcasts. It fetches data from a database and presents it in a user interface.</p>
+This script is designed to retrieve, process, and visualize election data for television broadcasts. It fetches real-time data from a database and presents it through an intuitive user interface for efficient visualization and display.
 
-<h2>Features</h2>
+## Features
 
-<ol>
-    <li>Retrieves election data from a database.</li>
-    <li>Displays election results for different political alliances and parties.</li>
-    <li>Calculates and displays the number of winning provinces for each alliance.</li>
-    <li>Provides visualization options for broadcasting purposes.</li>
-</ol>
+- **Data Retrieval:** Fetches the latest election data from a remote database.
+- **Election Results Display:** Shows the election results for various political alliances and individual parties.
+- **Winning Provinces Calculation:** Automatically calculates and displays the number of winning provinces for each alliance.
+- **Broadcast-Ready Visualization:** Provides visualization options tailored for broadcasting, including customizable display levels and data presentation formats.
 
-<h2>Usage</h2>
+## Usage
 
-<ol>
-    <li><strong>Initialization:</strong> Run the <strong>InitForm</strong> subroutine to initialize the script.</li>
-    <li><strong>Updating Data:</strong> Click the <strong>Verileri Güncelle</strong> (Update Data) button to fetch the latest election data.</li>
-    <li><strong>Visualizing Data:</strong> Click the <strong>Yayından Al</strong> (Take off Air) button to clear the visualization stage, and then click Load Scene to display the election results visually.</li>
-    <li><strong>Adjusting Display:</strong> Use the <strong>UstHaneUp</strong> and <strong>UstHaneDown</strong> buttons to adjust the display level.</li>
-    <li><strong>Sending to Viz:</strong> Click the <strong>Send to Viz</strong> button to send the election data to the visualization system for broadcasting.</li>
-</ol>
+### 1. **Initialization**
+Run the `InitForm` subroutine to initialize the script. This prepares the environment for data retrieval and visualization.
 
-<h2>Requirements</h2>
+### 2. **Updating Data**
+Click the **Verileri Güncelle** (Update Data) button to fetch the latest election data from the database.
 
-<ol>
-    <li>This script is written in VBScript and requires a compatible environment for execution.</li>
-    <li>Access to the database containing election data is necessary for fetching the latest results.</li>
-    <li>Visualization equipment compatible with the script's output format is required for broadcasting.</li>
-</ol>
+### 3. **Visualizing Data**
+- Click **Yayından Al** (Take off Air) to clear the visualization stage.
+- Click **Load Scene** to display the election results in a visually formatted scene.
 
-<h2>Configuration</h2>
+### 4. **Adjusting Display**
+Use the **UstHaneUp** and **UstHaneDown** buttons to adjust the display level and tailor the visualization for your broadcast.
 
-<ol>
-    <li>Ensure that the database connection details are correctly configured in the <strong>Database</strong> module.</li>
-    <li>Customize visualization settings and layer configurations as per broadcasting requirements.</li>
-</ol>
+### 5. **Sending to Viz**
+Once your data is ready, click **Send to Viz** to send the election data to the visualization system for broadcasting.
+
+## Requirements
+
+- **VBScript Compatibility:** This script is written in VBScript and requires an environment capable of executing VBScript.
+- **Database Access:** You must have access to a database containing the latest election results to fetch real-time data.
+- **Broadcast Visualization Equipment:** The script outputs data in a specific format compatible with your broadcast equipment. Ensure that your visualization system is configured to handle this format.
+
+## Configuration
+
+1. **Database Connection:** Verify that the database connection details in the `Database` module are correctly configured for seamless data retrieval.
+2. **Customization:** Customize the visualization settings and layer configurations as per your broadcast requirements.
+3. **Error Handling:** Ensure error handling is in place to manage potential issues with data retrieval or visualization.
+
+## Screenshots
+
+### 1. **User Interface Overview**
+![User Interface Overview](https://github.com/onurmertanarat/secim-2023/blob/main/parlamento/FOX/parlamento0.PNG)
+
+### 2. **Election Results Visualization**
+![Election Results Visualization](https://github.com/onurmertanarat/secim-2023/blob/main/parlamento/FOX/parlamento1.PNG)
